@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+
+.header-container{
+    width: 1230px;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.img-logo{
+    margin: 19px 36px 19px 50px;
+}
+
+nav{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #33383F;
+    line-height: 0.16em;
+    letter-spacing: 0.01em;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 31px;
+    margin-right: 54px;
+}
+
+.header-sign{
+    margin-left: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #0070A0;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.header-button{
+    font-weight: 400;
+    width: 139px;
+    height: 36px;
+    margin-left: auto;
+    color: #fff;
+    background-color: #0070A0;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.about{
+    height: 584px;
+}
+
+.about-container{
+    width: 1130px;
+    height: 433.58px;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container-text{
+    width: 525px;
+    height: 321px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.text-container-header{
+    font-family: 'Fraunces', serif;
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63.8px;
+    letter-spacing: 0px;
+    color: #1f1f1f;
+}
+
+.text-container-p{
+    width: 351px;
+    height: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    color: #1f1f1f;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 25px;
+}
+
+.about-buttons{
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 12.28px;
+    margin-top: 0;
+}
+
+.about-button{
+    color: #fff;
+    background-color: #0070A0;
+    width: 174px;
+    height: 43px;
+    font-size: 17px;
+    letter-spacing: 0.01em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.about-learn_more{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    margin: 0;
+}
+
+.about-learn_more-p{
+    font-family: 'Inter', sans-serif;
+    color: #0070A0;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+    line-height: 159%;
+    letter-spacing: 0.01em;
+}
+
+.about-container-img{
+    align-self: flex-start;
+}
