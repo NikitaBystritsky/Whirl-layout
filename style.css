@@ -307,7 +307,7 @@ nav div {
   font-family: "Fraunces", serif;
 }
 
-.one_of_a_list-p{
+.one_of_a_list-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -321,18 +321,177 @@ nav div {
 }
 
 .one_of_a_list img:nth-child(3) {
-  margin-left: 133px;
+  margin-left: auto;
+  margin-right: 16px;
 }
 
-.whats-all-about{
-    height: 458px;
+.whats-all-about {
+  height: 458px;
 }
 
-.whats-all-about-container{
-    width: 1130px;
-    height: 218px;
-    display: flex;
-    gap: 98px;
-    margin: auto;
-    margin-top: 120px;
+.whats-all-about-container {
+  width: 1130px;
+  height: 218px;
+  display: flex;
+  gap: 98px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.all-about-title {
+  width: 300px;
+  height: 218px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0em;
+  color: #1f1f1f;
+  font-family: "Fraunces", serif;
+}
+
+.list-all-about {
+  width: 732px;
+  height: 218px;
+  display: flex;
+  gap: 32px;
+}
+
+.list-all-about div {
+  width: 222.66px;
+  height: 218px;
+}
+
+.all-about-card-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.all-about-card-first h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  font-family: "Fraunces", serif;
+  margin: 0;
+  margin-top: 62.61px;
+}
+
+.all-about-card-first p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  font-family: "Fraunces", serif;
+  margin: 0;
+  margin-bottom: 14.39px;
+  width: 215px;
+}
+
+.all-about-card-rest h2 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  font-family: "Fraunces", serif;
+  margin: 0;
+}
+
+.all-about-card-rest p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  font-family: "Fraunces", serif;
+  margin: 0;
+  margin-bottom: 14.39px;
+  width: 215px;
+}
+
+.all-about-card-rest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.all-about-card-rest img {
+  width: 55px;
+  height: 55px;
+}
+
+.why-choose-us {
+  height: 550px;
+  background-color: #0070a0;
+}
+
+.why-choose-us-container {
+  width: 1130px;
+  height: 389.97px;
+  margin: auto;
+  padding-top: 80.39px;
+  display: flex;
+  gap: 187px;
+}
+
+.why-choose-us-container img {
+  margin-bottom: 16.36px;
+  margin-left: 60px;
+}
+
+.why-choose-us-text-container {
+  width: 501px;
+  height: 389px;
+}
+
+.why-choose-us-text-container h2 {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0em;
+  color: #ffffff;
+  font-family: "Fraunces", serif;
+  margin: auto;
+}
+
+.why-choose-us-text-container ul {
+  padding: 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.why-choose-us-text-container li {
+  list-style-image: url(/assets/list.svg);
+  list-style-position: inside;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.why-choose-us-text-container li:nth-child(1) {
+  margin-top: 20px;
+}
+
+.why-choose-us-text-container button {
+  width: 176px;
+  height: 43px;
+  background-color: #0070a0;
+  border: none;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
 }
