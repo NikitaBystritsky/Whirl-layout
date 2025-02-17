@@ -772,3 +772,149 @@ nav div {
   letter-spacing: 0.02em;
   color: #626a72;
 }
+
+footer{
+  height: 432px;
+}
+
+.footer-wrapper{
+  width: 1230px;
+  height: 352px;
+  margin: auto;
+  padding-top: 48px;
+}
+
+.footer-main{
+  width: 1130px;
+  height: 216px;
+  margin: auto;
+  display: flex;
+  gap: 16px
+}
+
+.footer-main div img{
+  width: 135px;
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.footer-main div p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.other-color{
+  color:#0070a0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 151%;
+  letter-spacing: 0.02em;
+}
+
+.footer-main div:first-child{
+  width: 432.8px;
+}
+
+.footer-main div h3{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #1f1f1f;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.footer-main div ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-main div ul li{
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.02em;
+  color: #626a72;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-main div{
+  width: 216.39px;
+}
+
+.last-div h3:first-child{
+  margin-bottom: 12px;
+}
+
+.last-div h3:last-child{
+  width: 216px;
+  margin-bottom: 12px;
+}
+
+.last-div div{
+  display: flex;
+  margin-left: 15px;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: flex-end;
+  border-bottom: 1px solid rgb(196, 196, 196);
+} 
+
+.last-div div img{
+  width: 22px;
+  height: 28px;
+  margin: 0;
+}
+
+.last-div div p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 0.02em;
+  color: #626a72;
+}
+
+.line{
+  height: 1px;
+  width: 1130px;
+  background: #dee5eb;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.socials{
+  margin: auto;
+  margin-top: 36px;
+  width: 1130px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials p{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 151%;
+  letter-spacing: 0.02em;
+  color: #1f1f1f;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.socials div{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.socials img{
+  width: 22px;
+  height: 23px;
+}
