@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: auto;
+  width: 1440px;
 }
 
 .header-container {
@@ -457,7 +458,7 @@ nav div {
   margin: auto;
 }
 
-.why-choose-us-text-container ul {
+.why-choose-us-text-container p {
   padding: 0;
   font-weight: 300;
   font-size: 18px;
@@ -465,6 +466,10 @@ nav div {
   letter-spacing: 0.01em;
   color: #fff;
   font-family: "Inter", sans-serif;
+}
+
+.why-choose-us-text-container ul{
+  padding: 0;
 }
 
 .why-choose-us-text-container li {
